@@ -1,0 +1,33 @@
+
+
+
+.footer{
+    background-image: url('/images/footer_bg.png');
+padding: 15% 0 15% 0;
+background-size: cover;
+background-position: center center;
+color: white;
+margin-top: 300px;
+}
+.footer-text{
+
+    border: 2px solid red;
+    width: 100%;
+    margin-top: -12%;
+    padding: 50px;
+    
+
+}
+.footer-part1{
+display: grid;
+grid-template-columns: 25% 45% 30% ;
+border-bottom:1px solid red ;
+
+}
+.footer-part2{
+display: grid;
+grid-template-columns: 15% 15% 15% 15% ;
+
+
+}
+

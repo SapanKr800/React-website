@@ -1,0 +1,57 @@
+.multi-card{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0% 5%;
+    grid-gap: 30px;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background: #fff;
+  padding:10%;
+  height: 300px;
+  margin-top: -25%;
+  margin-bottom: 25%;
+  
+}
+.card img{
+width: 20%;
+margin-bottom: 15px;
+
+}
+.card h4{
+    color: #333;
+	font-size: 22px;
+	font-weight: 400;
+	
+	font-family: 'Raleway', sans-serif;
+}
+.card p{
+	font-size: 14px;
+	font-weight: 400;
+	color: #607086;
+	
+}
+.Explore{
+
+display: grid;
+grid-template-columns: auto auto;  
+    
+}
+.list-item{
+    padding: 8%;
+}
+.list-item h4{
+    font-size: 26px;
+	color: #263238;
+	padding-bottom: 30px;
+	line-height: 32px;
+	font-family: 'Raleway', sans-serif;
+}
+.list-item p{
+    font-size: 16px;
+	color: #455a65;
+	margin: 0px;
+	padding-bottom: 45px;
+	line-height: 30px;
+}

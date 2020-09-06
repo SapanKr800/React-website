@@ -1,0 +1,36 @@
+.Navbar{
+    
+    border: 1px solid red;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 10% 50% 20% 20% ;
+    padding: 10px;
+      
+      
+  }
+  
+  .logo{
+   width: 75%;
+  
+  }
+     .border{
+      border-left: 1px solid red;
+      
+  }
+  .nav-item{
+      padding: 15px;
+  }
+  
+  .search-input{
+  width: 40%;
+  border: none;
+  margin-left:2%;
+  height: 30px;
+  }
+  .nav-item ul li{
+      list-style-type: none;
+      display: inline-block;
+      margin-right: 20%;
+  }
