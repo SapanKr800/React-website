@@ -2,13 +2,14 @@
     border: 1px solid black;
     background-image: url("../../../bg_main.png");
     background-position: center center;
-    color: white;
+	color: white;
+	margin-top:80px;
     
   
 
 }
 .image-contain{
-    border: 2px solid white;
+
     margin: 0 auto;
 }
 .image-text{
@@ -46,7 +47,6 @@ padding-bottom: 5%;
 .text-input{
     background: none;
 	border: none;
-	border-bottom: 1px solid #ffffff;
 	width: 100%;
 	min-height: 55px;
 	color: #fff;
@@ -63,9 +63,7 @@ padding-bottom: 5%;
 	font-weight: 500;
 	border-radius: 3px;
 }
-.product-pick{
-    border: 2px solid red;
-}
+
 .product{
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -74,12 +72,11 @@ padding-bottom: 5%;
    padding:50px 50px 180px 50px;
 }
 .box-img{
-    border: 1px solid black;
+    
     background: #051d36;
 	text-align: center;
 	padding-bottom: 20px;
 	margin-bottom: 30px;
-	position: relative;
 	border-bottom: solid #007dea 3px;
 	transition: ease all 0.5s;
     
